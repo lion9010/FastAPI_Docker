@@ -1,7 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
-app = FastAPI()
+app = FastAPI(
+    title="API de Productos",
+    description="Documentación de la API para la gestión de productos.",
+    version="1.0.0"
+)
 
 # Modelo Pydantic
 class Producto(BaseModel):

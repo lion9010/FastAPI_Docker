@@ -12,11 +12,15 @@ Antes de comenzar, asegúrate de tener instalado:
 - **Git**
 - **Docker** (Docker Desktop o Docker Engine)
 
+🖐 Si está ejecutando el proyecto desde un entorno de desarroolo en la nube (Ej: GitHub Codespaces) no necesita instalar nada.
 
 ## 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/reinaldodu/FastAPI_Docker.git
+```
+Ingresamos al directorio del priyecto
+```bash
 cd FastAPI_Docker
 ```
 

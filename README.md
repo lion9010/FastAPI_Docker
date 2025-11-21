@@ -12,14 +12,14 @@ Antes de comenzar, asegúrate de tener instalado:
 - **Git**
 - **Docker** (Docker Desktop o Docker Engine)
 
-🖐 Si está ejecutando el proyecto desde un entorno de desarroolo en la nube (Ej: GitHub Codespaces) no necesita instalar nada.
+🖐 Si vas a ejecutar el proyecto desde un entorno de desarrollo en la nube (por ejemplo, GitHub Codespaces), no necesitas instalar nada de lo anterior.
 
 ## 1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/reinaldodu/FastAPI_Docker.git
 ```
-Ingresamos al directorio del proyecto
+Ingresar al directorio del proyecto:
 ```bash
 cd FastAPI_Docker
 ```
@@ -39,9 +39,13 @@ La API quedará disponible en:
 
 👉 http://localhost:8000
 
-## 4. Documentación interactiva (Swagger UI)
+🖐 En entornos en la nube (como GitHub Codespaces), la plataforma genera automáticamente la URL pública para acceder a la API.
+
+## 4. Pruebas y documentación interactiva (Swagger UI)
 FastAPI incluye **Swagger**, que es un conjunto de herramientas que sirve para documentar y probar APIs de manera interactiva.
 
 Accede desde tu navegador para ver la documentación y hacer pruebas a la API:
 
-👉 http://localhost:8000/docs
+👉http://localhost:8000/docs
+
+🖐 En entornos en la nube, usa la URL pública asignada seguida de /docs.

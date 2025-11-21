@@ -19,7 +19,7 @@ Antes de comenzar, asegúrate de tener instalado:
 ```bash
 git clone https://github.com/reinaldodu/FastAPI_Docker.git
 ```
-Ingresamos al directorio del priyecto
+Ingresamos al directorio del proyecto
 ```bash
 cd FastAPI_Docker
 ```

@@ -7,6 +7,18 @@ app = FastAPI(
     version="1.0.0"
 )
 
+# Activar la API para ser consumida desde otro dominio
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # permite cualquier origen (CodePen incluido)
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
 # Modelo Pydantic
 class Producto(BaseModel):
     id: int
